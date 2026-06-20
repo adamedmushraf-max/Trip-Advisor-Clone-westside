@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Westside — find your stretch of the coast</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Karla:ital,wght@0,400;0,500;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="hero">
+  <div class="fog"></div>
+  <nav>
+    <div class="wordmark">WEST<span>SIDE</span></div>
+    <ul class="nav-links">
+      <li><a href="#featured">On the boardwalk</a></li>
+      <li><a href="#neighborhoods">Neighborhoods</a></li>
+      <li><a href="#">Write a review</a></li>
+    </ul>
+  </nav>
+
+  <div class="hero-content">
+    <p class="eyebrow">LA's coast, curated by neighbors</p>
+    <h1 class="title">TRIPADVISOR<br>WESTSIDE</h1>
+    <p class="tagline">Surf breaks before work, taco stands after. From Venice's boardwalk to Mar Vista's backyards — your guide to the good stretch of LA, block by block.</p>
+
+    <form class="search-card" role="search">
+      <input type="text" placeholder="Search beaches, eats, things to do…" aria-label="Search Westside">
+      <button type="submit">Search</button>
+    </form>
+
+    <div class="filter-pills">
+      <button class="pill active">All</button>
+      <button class="pill">Beaches</button>
+      <button class="pill">Eats</button>
+      <button class="pill">Sunset spots</button>
+      <button class="pill">Outdoors</button>
+      <button class="pill">Hidden gems</button>
+    </div>
+  </div>
+
+  <svg class="pier" viewBox="0 0 1200 130" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0,40 L1200,40" stroke="rgba(242,238,227,0.18)" stroke-width="2"/>
+    <path d="M40,40 L100,130 M1160,40 L1100,130 M600,40 L600,130 M300,40 L260,130 M900,40 L940,130"
+          stroke="rgba(242,238,227,0.22)" stroke-width="3" fill="none"/>
+    <g>
+      <circle class="bulb" cx="40" cy="40" r="4"/>
+      <circle class="bulb" cx="160" cy="40" r="4"/>
+      <circle class="bulb" cx="280" cy="40" r="4"/>
+      <circle class="bulb" cx="400" cy="40" r="4"/>
+      <circle class="bulb" cx="520" cy="40" r="4"/>
+      <circle class="bulb" cx="640" cy="40" r="4"/>
+      <circle class="bulb" cx="760" cy="40" r="4"/>
+      <circle class="bulb" cx="880" cy="40" r="4"/>
+      <circle class="bulb" cx="1000" cy="40" r="4"/>
+      <circle class="bulb" cx="1120" cy="40" r="4"/>
+    </g>
+  </svg>
+</section>
+
+<section class="section" id="featured">
+  <div class="section-head">
+    <div>
+      <p class="eyebrow">On the boardwalk today</p>
+      <h2 class="section-title">Featured spots</h2>
+    </div>
+    <p class="section-sub">A running list of where Westside locals actually send their friends — updated as the fog burns off each morning.</p>
+  </div>
+
+  <div class="grid">
+
+    <article class="card">
+      <div class="card-art art-1">
+        <svg viewBox="0 0 300 150" preserveAspectRatio="none"><path d="M0,110 Q40,90 80,110 T160,110 T240,110 T320,110 V150 H0 Z" fill="rgba(255,255,255,0.18)"/></svg>
+        <span class="tag">Outdoors</span>
+      </div>
+      <div class="card-body">
+        <div class="card-top">
+          <h3 class="card-name">Venice Boardwalk Sunset Walk</h3>
+          <span class="price">Free</span>
+        </div>
+        <p class="locale">Venice</p>
+        <img src="./image/p1.jpg">
+        <p class="blurb">Skaters, muscle beach, and street performers — best after 6pm when the light turns gold.</p>
+        <div class="rating">
+          <span class="stars">★★★★★</span>
+          <span class="num">4.8</span>
+          <span class="count">(2,140 reviews)</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card-art art-2">
+        <svg viewBox="0 0 300 150"><circle cx="250" cy="20" r="40" fill="rgba(255,255,255,0.22)"/></svg>
+        <span class="tag">Eats</span>
+      </div>
+      <div class="card-body">
+        <div class="card-top">
+          <h3 class="card-name">Gjusta Bakery Counter</h3>
+          <span class="price">$$</span>
+        </div>
+        <p class="locale">Venice</p>
+        <img src="./image/p3.jpg">
+        <p class="blurb">Wood-fired bread and a backyard patio. Go early — the line forms before the ovens cool.</p>
+        <div class="rating">
+          <span class="stars">★★★★★</span>
+          <span class="num">4.6</span>
+          <span class="count">(1,860 reviews)</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card-art art-3">
+        <svg viewBox="0 0 300 150"><rect x="0" y="100" width="300" height="50" fill="rgba(255,255,255,0.2)"/></svg>
+        <span class="tag">Beaches</span>
+      </div>
+      <div class="card-body">
+        <div class="card-top">
+          <h3 class="card-name">Santa Monica Pier</h3>
+          <span class="price">Free</span>
+        </div>
+        <p class="locale">Santa Monica</p>
+         <img src="./image/p4.jpg">
+        <p class="blurb">Ferris wheel, carousel, and the official end of Route 66. Touristy, but worth it once.</p>
+        <div class="rating">
+          <span class="stars">★★★★☆</span>
+          <span class="num">4.5</span>
+          <span class="count">(5,310 reviews)</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card-art art-4">
+        <svg viewBox="0 0 300 150"><path d="M0,150 L60,40 L120,150 Z M150,150 L210,70 L270,150 Z" fill="rgba(255,255,255,0.18)"/></svg>
+        <span class="tag">Hidden gem</span>
+      </div>
+      <div class="card-body">
+        <div class="card-top">
+          <h3 class="card-name">Mar Vista Farmers Market</h3>
+          <span class="price">$</span>
+        </div>
+        <p class="locale">Mar Vista</p>
+        <img src="./image/p5.jpg">
+        <p class="blurb">Sunday mornings only. Smaller and calmer than the big markets, with a real neighborhood feel.</p>
+        <div class="rating">
+          <span class="stars">★★★★★</span>
+          <span class="num">4.7</span>
+          <span class="count">(640 reviews)</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card-art art-5">
+        <svg viewBox="0 0 300 150"><circle cx="50" cy="120" r="70" fill="rgba(255,255,255,0.14)"/></svg>
+        <span class="tag">Outdoors</span>
+      </div>
+      <div class="card-body">
+        <div class="card-top">
+          <h3 class="card-name">Tongva Park</h3>
+          <span class="price">Free</span>
+        </div>
+        <p class="locale">Santa Monica</p>
+        <img src="./image/p6.jpg">
+        <p class="blurb">Rolling lawns and shade structures two blocks from the bluffs. A quiet break from the pier crowds.</p>
+        <div class="rating">
+          <span class="stars">★★★★★</span>
+          <span class="num">4.7</span>
+          <span class="count">(980 reviews)</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card-art art-6">
+        <svg viewBox="0 0 300 150"><path d="M0,0 L300,150 M300,0 L0,150" stroke="rgba(255,255,255,0.15)" stroke-width="6"/></svg>
+        <span class="tag">Eats</span>
+      </div>
+      <div class="card-body">
+        <div class="card-top">
+          <h3 class="card-name">Abbot Kinney Blvd</h3>
+          <span class="price">$$$</span>
+        </div>
+        <p class="locale">Venice</p>
+         <img src="./image/p7.jpg">
+        <p class="blurb">A mile of boutiques, galleries, and patios. Park once and walk the whole strip.</p>
+        <div class="rating">
+          <span class="stars">★★★★☆</span>
+          <span class="num">4.5</span>
+          <span class="count">(1,240 reviews)</span>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<section class="neigh-strip" id="neighborhoods">
+  <div class="neigh-row">
+    <div class="neigh-pill"><span class="dot"></span>Venice <span class="count">312 spots</span></div>
+    <div class="neigh-pill"><span class="dot"></span>Santa Monica <span class="count">288 spots</span></div>
+    <div class="neigh-pill"><span class="dot"></span>Mar Vista <span class="count">94 spots</span></div>
+    <div class="neigh-pill"><span class="dot"></span>Culver City <span class="count">176 spots</span></div>
+    <div class="neigh-pill"><span class="dot"></span>Playa del Rey <span class="count">61 spots</span></div>
+    <div class="neigh-pill"><span class="dot"></span>Pacific Palisades <span class="count">73 spots</span></div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-top">
+    <div>
+      <div class="wordmark">WEST<span style="color:var(--gold)">SIDE</span></div>
+    </div>
+    <p class="footer-tag">Built by people who actually live west of the 405. No sponsored placements, just the spots worth the drive.</p>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Westside</span>
+    <span>A neighbor's guide to LA's coast</span>
+  </div>
+</footer>
+
+</body>
+</html>
